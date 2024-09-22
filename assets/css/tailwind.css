@@ -59,3 +59,16 @@
 html,body {
     font-family: 'Baloo Bhaijaan 2';
 }
+
+/* on dark mode (using media) text color is black */
+@media (prefers-color-scheme: dark) {
+    html {
+        color: black;
+    }
+}
+/* on light mode (using media) text color is white */
+@media (prefers-color-scheme: light) {
+    html {
+        color: white;
+    }
+}
