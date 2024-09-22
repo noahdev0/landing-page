@@ -4,7 +4,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
     content: ["./*.html", "./*.js"],
-    darkMode: "media",
+    darkMode: "media", // or 'selector', 'media'
     safelist: ["isToggled"],
     theme: {
       fontFamily: {
